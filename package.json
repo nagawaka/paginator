@@ -1,0 +1,23 @@
+{
+  "name": "paginator",
+  "version": "1.0.0",
+  "description": "A simple pagination plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": "git@github.com:nagawaka/paginator.git",
+  "author": "Marcos Nakagawa <nakagawa@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4"
+  }
+}
