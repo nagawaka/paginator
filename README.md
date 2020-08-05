@@ -1,0 +1,2 @@
+# paginator
+A pagination plugin
