@@ -4,7 +4,7 @@
   "description": "A simple pagination plugin",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --recursive"
+    "test": "mocha --require @babel/register --recursive"
   },
   "repository": "git@github.com:nagawaka/paginator.git",
   "author": "Marcos Nakagawa <nakagawa@gmail.com>",
